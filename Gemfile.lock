@@ -1,0 +1,48 @@
+PATH
+  remote: .
+  specs:
+    namesilo_client (0.0.3)
+      addressable (~> 2.5)
+      faraday (~> 0.13)
+      nokogiri (~> 1.10)
+      nori (~> 2.6)
+      thor (= 1.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    diff-lcs (1.4.4)
+    faraday (0.17.3)
+      multipart-post (>= 1.2, < 3)
+    mini_portile2 (2.4.0)
+    multipart-post (2.1.1)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    nori (2.6.0)
+    public_suffix (4.0.6)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
+    thor (1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  namesilo_client!
+  rspec (~> 3.7)
+
+BUNDLED WITH
+   2.1.4
